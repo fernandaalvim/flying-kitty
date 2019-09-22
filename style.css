@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    position: relative;
+    background-color: black; /*I have set a color while the image doesnt load*/
+    background-image: url(img/8bit-space-background-3.jpg);
+    background-size: cover;
+}
+
+
+/*This is a container for the cat*/
+main {
+    background-color: transparent;
+    position: absolute;
+    top: 5vh;
+    margin: auto;
+    width: 95vw;
+    height: 80vh;
+    cursor: url('img/pinkheart.png');
+}
+
+/* nav: score and players */
+
+header {
+    width: 100vw;
+    padding: 1%;
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    background-color: white;
+    border: 1 px solid transparent;
+    border-radius: 5px;
+    padding: 5px; 
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    background-color: yellow;
+}
+
+
+#navvy {
+    display: flex;
+    color: white;
+}
+#navvy p {
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* end of nav*/
+
+/*cat, speech bubble and the cat+speech bubble container*/
+
+#stuck {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 200px;
+}
+
+#target {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url(img/cats/1\ -\ default.png);
+    background-size: cover;
+    background-position: block;
+    top: 0;
+    left: 0;
+  }
+
+  #speech {
+      position: absolute;
+      left: 50px;
+      bottom: 170px;
+      width: 170px;
+      height: 50px;
+      background-image: url('img/speeches/catlost.png');
+      background-size: cover;
+      background-position: center;
+      display: none;
+  }
