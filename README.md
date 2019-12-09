@@ -4,5 +4,5 @@
 #### [Try it here](https://catch-the-flying-kitty.netlify.com/)
 
 # *IMPORTANT DISCLAIMER:*
-#This game was a javascript exercise and none of the artwork in this game is mine, nor do I intend to sell it in any form.
+# This game was a javascript exercise and none of the artwork in this game is mine, nor do I intend to sell it in any form.
 ### it's super cute tho isn't it?
